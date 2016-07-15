@@ -213,26 +213,32 @@ input[type=submit] {
 	padding: 10px 30px;
 	cursor: pointer;
 }
+
 @media only screen and (max-width: 980px) {
     .container {
         max-width: 60%;
     }
+}
+
 @media only screen and (max-width: 768px){
 	.container{
 		min-width:100%;
+	}
 	.sidebar{
-		min-width:100%;
+		min-width:80%;
 		float:left;
 		margin-right: 100px;
 	}
+}
+
 @media only screen and (max-width: 640px){
 	.container{
 		max-width:70%;
+	}
 	.sidebar{
 		float:left;
-		min-width:100%;
+		min-width:80%;
 		margin-right: 70px;
-	}
 	}
 	.nav{
 		float:left;
@@ -240,7 +246,4 @@ input[type=submit] {
 	#masthead{
 		position: static;
 	}
-	}
-}
-}
 }
